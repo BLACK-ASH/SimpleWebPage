@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --primarycolor: rgb(57, 6, 150);
+            --seccolor: rgb(76, 36, 152);
+            --textcolor1: white;
+            --tertcolor:rgb(107, 88, 142);
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            height: 2.5rem;
+            background-color: var(--primarycolor);
+            color:var(--textcolor1);
+            display: flex;
+        }
+       
+        nav ul {
+            display: flex;
+        }
+        nav ul li{
+            padding: 0.5rem 3rem 0 .3rem;
+            list-style: none;
+        }
+        body{
+            background-color: azure;
+            
+        }
+        .container{
+            height: 100vh;
+            background-color: var(--seccolor);
+            display: flex;
+            margin: 1rem;
+        }
+        .box{
+            width: 45vw;
+            background-color:var(--tertcolor) ;
+            margin: 0 auto 0 auto;
+
+           
+        }
+        .extra{
+            height: 10vh;
+            background-color: blueviolet;
+            text-align: center;
+            padding-top: 2rem;
+            margin: 1rem;
+            border-radius: 50px;
+        }
+        footer{
+            background-color: var(--primarycolor);
+            height: 10vh;
+            margin-top: 2rem;
+        }
+        .img1{
+            position: sticky;
+           text-align: right;
+            top: 80%;
+        }
+    </style>
+    <title>Sigma Website</title>
+</head>
+
+<body>
+    <nav>
+        <div class="img">
+            <img width="40rem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJihqumO6NPyLtIXrg3keenLs7q4h4uF85rA&usqp=CAU" alt="Sigma">
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+            <li>Report</li>
+        </ul>
+    </nav>
+    <div class="img1">
+        <img width="70px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJihqumO6NPyLtIXrg3keenLs7q4h4uF85rA&usqp=CAU" alt="Sigma">
+    </div>
+    <div class="container">
+        <div class="box">iam 1
+
+        </div>
+        <div class="box">iam 2
+
+        </div>
+    </div>
+    <div class="extra">
+     <h2>Welcome To Sigma Website</h2>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
